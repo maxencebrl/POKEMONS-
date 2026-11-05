@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+<defs>
+  <linearGradient id="night" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#102b52"/><stop offset=".52" stop-color="#07172e"/><stop offset="1" stop-color="#13213a"/></linearGradient>
+  <radialGradient id="glow"><stop stop-color="#1c70bd" stop-opacity=".55"/><stop offset="1" stop-color="#0a1830" stop-opacity="0"/></radialGradient>
+  <linearGradient id="ball" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#ff4b54"/><stop offset=".49" stop-color="#e92e42"/><stop offset=".5" stop-color="#e8edf7"/><stop offset="1" stop-color="#8295b4"/></linearGradient>
+  <pattern id="stars" width="130" height="130" patternUnits="userSpaceOnUse"><circle cx="18" cy="22" r="1.5" fill="#dbeafe" opacity=".5"/><circle cx="91" cy="77" r="1" fill="#facc15" opacity=".5"/><path d="M55 12v8m-4-4h8" stroke="#dbeafe" stroke-width="1" opacity=".3"/></pattern>
+  <g id="pokeball" opacity=".18"><circle r="125" fill="#f8fafc"/><path d="M-125 0a125 125 0 0 1 250 0Z" fill="#ef4444"/><path d="M-125 0H125" stroke="#e5e7eb" stroke-width="15"/><circle r="32" fill="#f8fafc" stroke="#0f172a" stroke-width="13"/></g>
+</defs>
+<rect width="1920" height="1080" fill="url(#night)"/><rect width="1920" height="1080" fill="url(#stars)"/>
+<ellipse cx="330" cy="300" rx="560" ry="500" fill="url(#glow)"/><ellipse cx="1610" cy="780" rx="600" ry="550" fill="url(#glow)"/>
+<g transform="translate(300 300) rotate(-18) scale(1.35)"><use href="#pokeball"/></g>
+<g transform="translate(1570 250) rotate(17) scale(.8)"><use href="#pokeball"/></g>
+<g transform="translate(1490 850) rotate(-12) scale(1.55)"><use href="#pokeball"/></g>
+<g transform="translate(670 880) rotate(12) scale(.58)"><use href="#pokeball"/></g>
+<path d="M0 940 Q300 810 610 930 T1240 910 T1920 870 V1080 H0Z" fill="#061226" opacity=".5"/>
+</svg>
